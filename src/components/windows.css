@@ -1,0 +1,73 @@
+#one {
+  background-image: url("https://images.unsplash.com/photo-1610741083757-1ae88e1a17f7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+  background-size: cover;
+}
+#two {
+  background-image: url("https://images.unsplash.com/photo-1511497584788-876760111969?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2089&q=80");
+  background-size: cover;
+}
+
+#three {
+  background-image: url("https://images.unsplash.com/photo-1551632134-c129c233d754?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1376&q=80");
+  background-size: cover;
+}
+
+#four {
+  background-image: url("https://images.unsplash.com/photo-1541844779592-c5fd867bfcf0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2069&q=80");
+  background-size: cover;
+}
+
+#five {
+  background-image: url("https://images.unsplash.com/photo-1524856781660-e5c92f4ac62a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+  background-size: cover;
+}
+
+#six {
+  background-image: url("https://images.unsplash.com/photo-1592408465270-9e669f6761f4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80");
+  background-size: cover;
+}
+
+#seven {
+  background-image: url("https://images.unsplash.com/photo-1556805446-e10a44a861b7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80");
+  background-size: cover;
+}
+#eight {
+  background-image: url("https://images.unsplash.com/photo-1561916808-038bc36cf773?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1834&q=80");
+  background-size: cover;
+}
+
+.root {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  min-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.paper {
+  margin: -9.2px 0px;
+  padding: 0px;
+  height: 350px;
+  font-size: 15px;
+  border-radius: 0px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  filter: contrast(0.7);
+}
+.paper:hover {
+  filter: grayscale(0);
+}
+
+.paper h1 {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.514);
+  box-sizing: border-box;
+  padding: 20px 50px;
+  width: fit-content;
+  border-radius: 10px;
+  transition: 0.5s;
+}
