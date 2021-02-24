@@ -8,14 +8,19 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 export default function Windows() {
+  Aos.init({
+    duration: 2000,
+  });
+
   function FormRow(props) {
     return (
       <React.Fragment>
         <Grid item sm={12} xs={12} md={6} lg={6}>
-          <Paper id={props.id} className={"paper"}>
+          <Paper data-aos={"fade-in"} id={props.id} className={"paper"}>
             <div>
               <h1>{props.text}</h1>
               <audio
+                className="audio"
                 id={props.id}
                 accessKey={props.accesskey}
                 src={props.src}

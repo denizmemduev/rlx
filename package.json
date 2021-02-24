@@ -2,15 +2,16 @@
   "name": "client",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://denizmemduev.github.io/rlx.github.io/home",
   "dependencies": {
     "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.7.0",
     "aos": "^2.3.4",
     "jquery": "^3.5.1",
     "netlify-cli": "^3.7.1",
+    "notistack": "^1.0.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.2",
@@ -20,9 +21,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "redeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [

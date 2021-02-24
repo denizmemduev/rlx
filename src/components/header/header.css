@@ -1,5 +1,4 @@
 .header {
-  height: 350px;
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -8,38 +7,35 @@
   align-items: flex-start;
   flex-direction: column;
   flex-wrap: wrap;
-
+  overflow: hidden;
   width: 100%;
   margin: 0;
-  padding: 0;
+  box-sizing: border-box;
+  padding: 7;
   font-size: 20px;
-  background-size: cover;
 }
 
 #logo {
   border-radius: 15px 15px 0px 0px;
-  margin-left: 15px;
-  color: rgba(255, 255, 255, 0.767);
+
+  margin: 10px 0px 0px 10px;
+  color: rgb(255, 255, 255);
   transition: 0.8s;
-  width: 100%;
 }
 #logo:hover {
   color: white;
   cursor: pointer;
 }
 
-hr {
-  width: 39%;
-  border: none;
-  height: 2px;
-  background-color: rgba(243, 243, 243, 0.329);
-  margin-left: 15px;
-  border-radius: 40px;
+p {
+  color: rgb(255, 255, 255);
+  font-size: 85%;
+  box-sizing: border-box;
+  margin: 10px 0px 20px 8px;
 }
 
-p {
-  max-width: 800px;
-  padding: 0% 2%;
-  color: rgba(243, 243, 243, 0.329);
-  font-size: 85%;
+.slider {
+  width: 300px;
+  margin-top: 15px;
+  margin: 10px 0px 0px 10px;
 }
