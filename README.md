@@ -1,4 +1,4 @@
- # rlx.netlify.com
+https://rlx.netlify.com
 
 # Getting Started with Create React App
 
