@@ -3,18 +3,18 @@
   "version": "0.1.0",
   "private": false,
   "dependencies": {
-    "@material-ui/core": "^4.11.3",
+    "@material-ui/core": "^4.11.4",
     "@material-ui/icons": "^4.11.2",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.7.0",
     "aos": "^2.3.4",
     "jquery": "^3.5.1",
-    "netlify-cli": "^3.7.1",
+    "netlify-cli": "^2.12.0",
     "notistack": "^1.0.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-scripts": "4.0.2",
+    "react-scripts": "^1.1.5",
     "web-vitals": "^1.1.0"
   },
   "scripts": {
@@ -32,7 +32,6 @@
   "browserslist": {
     "production": [
       ">0.2%",
-      "not dead",
       "not op_mini all"
     ],
     "development": [
@@ -42,6 +41,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.1.0"
+    "gh-pages": "^1.1.0"
   }
 }
