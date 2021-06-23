@@ -6,9 +6,6 @@ import $ from "jquery";
 import "./windows.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Slider from "@material-ui/core/Slider";
-import VolumeDown from "@material-ui/icons/VolumeDown";
-import VolumeUp from "@material-ui/icons/VolumeUp";
 
 export default function Windows() {
   Aos.init({

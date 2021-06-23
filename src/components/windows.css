@@ -43,7 +43,7 @@
     justify-content: space-around;
     align-items: center;
     margin: 0;
-    padding: 0px 9.9%;
+    width: 100%;
   }
 
   .paper {
